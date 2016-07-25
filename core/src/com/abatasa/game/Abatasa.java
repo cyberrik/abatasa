@@ -33,7 +33,6 @@ public class Abatasa extends ApplicationAdapter {
 		textButtonStyle.up = skin.getDrawable("orange-button-hi");
 		textButtonStyle.down = skin.getDrawable("red-button-hi");
 		textButton = new TextButton("button 1", textButtonStyle);
-		stage.addActor(textButton);
 	}
 
 	@Override
